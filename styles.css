@@ -56,7 +56,7 @@ nav ul li a::after{
     left: 50%;
     transform:translateX(-50%);
     background: #fff;
-    transition: width 0.3s;
+    transition: width 0.5s;
 }
 
 nav ul li a:hover::after{
