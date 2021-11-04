@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: */
 }
 
 .container{
@@ -75,11 +74,11 @@ nav ul li a:hover::after{
 }
 
 .text-box h1{
-    font-size: 190px;
+    font-size: 200px;
     line-height: 160px;
     margin-left: -10px;
     color: transparent;
-    -webkit-text-stroke: 1px #fff;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
     background: url(photos/back.png);
     -webkit-background-clip: text;
     background-position: 0 0;
@@ -156,5 +155,30 @@ nav ul li a:hover::after{
     text-align: center;
     margin: auto;
     font-size: 30px;
-    padding: 15px;
+    padding: 8px;
+}
+
+.about-container {
+    background-color: #758793
+}
+
+/* skills.html */
+
+.text-box3{
+    width: 50%;
+    color: rgb(251, 248, 248);
+    border-radius: 25px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    padding: 8px;
+}
+
+.text-box3 img{
+    width: 60px;
+    display: block;
+    margin: 25px 5px
 }
