@@ -239,6 +239,40 @@ nav ul li a:hover::after{
     margin: 25px 5px
 }
 
+/* projects.html */
+.projects-title{
+    margin-top: 100px;
+    width: 100%;
+    color: #fff;
+    border-radius: 25px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 8px;
+}
+
+.projects-box{
+    margin-top: 50px;
+    width: 100%;
+    color: #fff;
+    border-radius: 25px;
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    padding: 8px;
+}
+
+.project-list {
+    width: 25%;
+    color: #fff
+}
+
+
 /* MOBILE CHANGES */
 
 @media screen and (max-width: 480px) {
@@ -265,7 +299,7 @@ nav ul li a:hover::after{
         width: 70px;
     }
     .about-me-title{
-        margin-top: 25px
+        margin-top: 50px
     }
     .about-me-title h3{
         font-size: 30px;
@@ -283,7 +317,7 @@ nav ul li a:hover::after{
         font-size: 20px
     }
     .social-icons{
-        margin-bottom: 1250px
+        margin-bottom: 1270px
         
     }
 }
