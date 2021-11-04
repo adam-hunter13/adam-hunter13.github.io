@@ -272,6 +272,12 @@ nav ul li a:hover::after{
     color: #fff
 }
 
+.project-list a:link,
+.project-list a:visited,
+.project-list a:active {
+    color:white;
+}
+
 
 /* MOBILE CHANGES */
 
@@ -316,8 +322,16 @@ nav ul li a:hover::after{
     .about-me-text2 p{
         font-size: 20px
     }
+    .skills-title {
+        margin-top: 50px;
+    }
+    .skills-box{
+        margin-top: 20px
+    }
+    .skills-icon {
+        width: 50%
+    }
     .social-icons{
-        margin-bottom: 1270px
-        
+        /* margin-bottom: 1270px */
     }
 }
