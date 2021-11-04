@@ -147,7 +147,7 @@ nav ul li a:hover::after{
 
 /* about.html */
 
-.text-box2{
+.about-me-title{
     margin-top: 100px;
     width: 100%;
     color: #fff;
@@ -156,14 +156,39 @@ nav ul li a:hover::after{
     display: flex;
     justify-content: center;
     text-align: center;
-    /* margin: auto; */
+    font-size: 30px;
+    padding: 8px;
+}
+
+.about-me-text{
+    margin-top: 100px;
+    width: 100%;
+    color: #fff;
+    border-radius: 25px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-size: 30px;
     padding: 8px;
 }
 
 /* skills.html */
 
-.text-box3{
+.skills-title{
+    margin-top: 100px;
+    width: 100%;
+    color: #fff;
+    border-radius: 25px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 8px;
+}
+
+.skills-box{
     margin-top: 50px;
     width: 100%;
     color: #fff;
@@ -177,7 +202,7 @@ nav ul li a:hover::after{
     padding: 8px;
 }
 
-.text-box3 img{
+.skills-box img{
     width: 60px;
     margin: 25px 5px;
 }
