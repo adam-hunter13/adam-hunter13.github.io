@@ -92,10 +92,12 @@ nav ul li a:hover::after{
     }
 }
 
+
 .text-box h3{
     font-size: 50px;
     font-weight: 600;
 }
+
 
 .text-box .row{
     display: flex;
@@ -209,4 +211,30 @@ nav ul li a:hover::after{
 
 .skills-icon {
     width: 25%;
+}
+
+
+
+/* MOBILE CHANGES */
+
+@media screen and (max-width: 480px) {
+    .text-box h1{
+        font-size: 40px
+    }   
+    .text-box h3{
+        font-size: 25px
+    }
+    .text-box span{
+        font-size: 12px
+    }     
+    .social-icons img{
+        width: 40px
+    }
+    .text-box a{
+        width:200px;
+        margin-top: 5px;
+    }
+    .text-box span{
+        margin-top: 5px;
+    }
 }
