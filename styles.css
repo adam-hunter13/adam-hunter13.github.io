@@ -280,10 +280,12 @@ nav ul li a:hover::after{
 }
 
 .projects-box img{
-    width: 500px;
-    padding: 25px;
+    width: 400px;
+    padding: 50px;
     display:flex;
     align-items: center;
+    border-radius: 25px
+
 }
 
 .projects-icon {
@@ -291,7 +293,7 @@ nav ul li a:hover::after{
 }
 
 .project-text {
-    margin-left: 45px
+    margin-right: 45px
 }
 
 
