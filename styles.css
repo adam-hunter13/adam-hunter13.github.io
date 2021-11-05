@@ -260,7 +260,7 @@ nav ul li a:hover::after{
     border-radius: 25px;
     border-style: solid;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     flex-wrap: wrap;
     align-items: center;
@@ -269,7 +269,7 @@ nav ul li a:hover::after{
 }
 
 .project-list {
-    width: 25%;
+    /* width: 25%; */
     color: #fff
 }
 
@@ -281,7 +281,7 @@ nav ul li a:hover::after{
 
 .projects-box img{
     width: 400px;
-    padding: 50px;
+    margin-top: 50px;
     display:flex;
     align-items: center;
     border-radius: 25px
@@ -293,7 +293,9 @@ nav ul li a:hover::after{
 }
 
 .project-text {
-    margin-right: 45px
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -354,12 +356,11 @@ nav ul li a:hover::after{
         font-size: 30px
     }
     .projects-box img{
-        width: 250px
+        width: 250px;
+        margin-top: 25px
     }
     .project-text{
-        font-size: 25px
+        font-size: 25px;
     }
-    .social-icons{
-        /* margin-bottom: 1270px */
-    }
+    
 }
