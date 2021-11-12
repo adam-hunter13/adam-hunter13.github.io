@@ -269,7 +269,7 @@ nav ul li a:hover::after{
 }
 
 .project-list {
-    /* width: 25%; */
+    width: 100%;
     color: #fff
 }
 
@@ -283,8 +283,9 @@ nav ul li a:hover::after{
     width: 400px;
     margin-top: 50px;
     display:flex;
-    align-items: center;
-    border-radius: 25px
+    /* align-items: center; */
+    border-radius: 25px;
+    margin-left: 27%;
 
 }
 
@@ -357,7 +358,8 @@ nav ul li a:hover::after{
     }
     .projects-box img{
         width: 250px;
-        margin-top: 25px
+        margin-top: 25px;
+        margin-left: 1px
     }
     .project-text{
         font-size: 25px;
