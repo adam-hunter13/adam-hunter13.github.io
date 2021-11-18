@@ -189,18 +189,6 @@ nav ul li a:hover::after{
     padding: 8px;
 }
 
-.about-me-social-icons{
-    position: absolute;
-    right: 5%;
-    bottom: 8%;
-}
-
-.about-me-social-icons img{
-    width: 60px;
-    display: block;
-    margin: 25px 5px
-}
-
 /* skills.html */
 
 .skills-title{
@@ -246,18 +234,6 @@ nav ul li a:hover::after{
 }
 
 .skill-icons img{
-    width: 60px;
-    display: block;
-    margin: 25px 5px
-}
-
-.skills-social-icons{
-    position: absolute;
-    right: 5%;
-    bottom: 8%;
-}
-
-.skills-social-icons img{
     width: 60px;
     display: block;
     margin: 25px 5px
@@ -369,12 +345,6 @@ nav ul li a:hover::after{
     .about-me-text2 p{
         font-size: 20px
     }
-    .about-me-social-icons img{
-        width: 40px
-    }
-    .about-me-social-icons {
-        margin-bottom: 1100px
-    }
     .skills-title {
         margin-top: 50px;
     }
@@ -383,12 +353,6 @@ nav ul li a:hover::after{
     }
     .skills-icon {
         width: 50%
-    }
-    .skills-social-icons img{
-        width: 40px
-    }
-    .skills-social-icons {
-        margin-bottom: 1000px
     }
     .projects-title {
         margin-top: 50px;
