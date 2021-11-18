@@ -189,6 +189,18 @@ nav ul li a:hover::after{
     padding: 8px;
 }
 
+.about-me-social-icons{
+    position: absolute;
+    right: 5%;
+    bottom: 8%;
+}
+
+.about-me-social-icons img{
+    width: 60px;
+    display: block;
+    margin: 25px 5px
+}
+
 /* skills.html */
 
 .skills-title{
@@ -260,17 +272,17 @@ nav ul li a:hover::after{
     border-radius: 25px;
     border-style: solid;
     display: flex;
-    justify-content: center;
-    text-align: center;
     flex-wrap: wrap;
-    align-items: center;
     font-size: 30px;
     padding: 8px;
 }
 
 .project-list {
     width: 100%;
-    color: #fff
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-list a:link,
@@ -280,23 +292,25 @@ nav ul li a:hover::after{
 }
 
 .projects-box img{
-    width: 400px;
+    width: 250px;
     margin-top: 50px;
     display:flex;
-    /* align-items: center; */
     border-radius: 25px;
-    margin-left: 27%;
-
 }
 
 .projects-icon {
-    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-text {
+    font-size: 25px;
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
+
 }
 
 
@@ -342,6 +356,12 @@ nav ul li a:hover::after{
     }
     .about-me-text2 p{
         font-size: 20px
+    }
+    .about-me-social-icons img{
+        width: 40px
+    }
+    .about-me-social-icons {
+        margin-bottom: 1300px
     }
     .skills-title {
         margin-top: 50px;
