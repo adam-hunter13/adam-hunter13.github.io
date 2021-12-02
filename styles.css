@@ -26,7 +26,7 @@ nav{
 }
 
 .logo{
-    width:120px;
+    width:100px;
     cursor: pointer;
 }
 
@@ -154,8 +154,8 @@ nav ul li a:hover::after{
     margin-top: 100px;
     width: 100%;
     color: #fff;
-    border-radius: 25px;
-    border-style: solid;
+    /* border-radius: 25px;
+    border-style: solid; */
     display: flex;
     justify-content: center;
     text-align: center;
@@ -195,8 +195,8 @@ nav ul li a:hover::after{
     margin-top: 100px;
     width: 100%;
     color: #fff;
-    border-radius: 25px;
-    border-style: solid;
+    /* border-radius: 25px;
+    border-style: solid; */
     display: flex;
     justify-content: center;
     text-align: center;
@@ -227,25 +227,13 @@ nav ul li a:hover::after{
     width: 25%;
 }
 
-.skill-icons{
-    position: absolute;
-    right: 5%;
-    bottom: 8%;
-}
-
-.skill-icons img{
-    width: 60px;
-    display: block;
-    margin: 25px 5px
-}
-
 /* projects.html */
 .projects-title{
     margin-top: 100px;
     width: 100%;
     color: #fff;
-    border-radius: 25px;
-    border-style: solid;
+    /* border-radius: 25px;
+    border-style: solid; */
     display: flex;
     justify-content: center;
     text-align: center;
@@ -254,51 +242,50 @@ nav ul li a:hover::after{
 }
 
 .projects-box{
+
     margin-top: 50px;
     width: 100%;
     color: #fff;
     border-radius: 25px;
-    border-style: solid;
+    /* border-style: solid; */
     display: flex;
+    justify-content: space-between;
+    text-align: center;
     flex-wrap: wrap;
     font-size: 30px;
     padding: 8px;
 }
 
-.project-list {
-    width: 100%;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.project-list a:link,
-.project-list a:visited,
-.project-list a:active {
-    color:white;
-}
-
-.projects-box img{
+.project-image{
     width: 250px;
     margin-top: 50px;
-    display:flex;
     border-radius: 25px;
+        
 }
 
-.projects-icon {
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.project-icon {
+    width: 50%;
+    color: #fff;
+}
+
+.project-icon a:link,
+.project-icon a:visited,
+.project-icon a:active {
+    color:white;
+    text-decoration: none;
 }
 
 .project-text {
     font-size: 25px;
     margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center
+ 
+}
 
+.project-icon li{
+    padding-top: 10px;
+    list-style-type: none;
+    font-size: 15px;
 }
 
 
@@ -359,7 +346,7 @@ nav ul li a:hover::after{
         font-size: 30px
     }
     .projects-box img{
-        width: 250px;
+        width: 100px;
         margin-top: 25px;
         margin-left: 1px
     }
