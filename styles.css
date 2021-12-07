@@ -288,6 +288,11 @@ nav ul li a:hover::after{
     font-size: 15px;
 }
 
+.project-icon i{
+    border: 2px solid #fff;
+    padding: 5px 5px;
+}
+
 
 /* MOBILE CHANGES */
 
